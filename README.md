@@ -31,3 +31,21 @@ PGDATABASE=nc_news_test
 PGDATABASE=nc_news
 ```
 #### Important: these files are included in `.gitignore` - never commit them!
+
+### 4. Create and Seed Databases
+```bash
+npm run setup-dbs    # Creates both databases
+npm run seed-dev     # Seeds development database
+```
+
+### 4. Create and Seed Databases
+```bash
+npm run setup-dbs    # Creates both databases
+npm run seed-dev     # Seeds development database
+```
+
+### 5. Verify Setup
+```bash
+npm run setup-dbs    # Creates both databases
+npm run seed-dev     # Should show dev DB connection
+```
