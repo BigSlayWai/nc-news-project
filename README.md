@@ -21,4 +21,13 @@ npm install
 ```
 
 ### 3. Database Configuration
-Install these configurations:
+Create these environment files:
+#### .env.test
+```env
+PGDATABASE=nc_news_test
+```
+#### .env.development
+```env
+PGDATABASE=nc_news
+```
+#### Important: these files are included in `.gitignore` - never commit them!
