@@ -13,3 +13,12 @@ A RESTful API for a news aggregation service, built with Node.js, Express, and P
 ```bash
 git clone https://github.com/your-username/nc-news-project.git
 cd nc-news-project
+```
+
+### 2. Install Dependencies
+```bash
+npm install
+```
+
+### 3. Database Configuration
+Install these configurations:
